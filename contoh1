@@ -1,0 +1,26 @@
+public class LingkunganRumah{
+    public static void main (String[] args){
+        Kucing michaelKucing = new Kucing();
+        Kucing garfieldKucing = new Kucing();
+        michaelKucing.setNama("Kitty");
+        michaelKucing.setUsia(3);
+        michaelKucing.setBb(4.5);
+        michaelKucing.setMajikan("Rafi");
+
+        garfieldKucing.setNama("Cemong");
+        garfieldKucing.setUsia(3);
+        garfieldKucing.setBb(4.5);
+        garfieldKucing.setMajikan("Sasa");
+        System.out.println("Kucing Bernama : "+michaelKucing.getNama());
+        System.out.println("Usia : "+michaelKucing.getUsia());
+        System.out.println("Berat Badan : " +michaelKucing.getBb());
+        System.out.println("Jinak : "+michaelKucing.getStatusJinak());
+        System.out.println("Diadopsi Oleh : "+michaelKucing.getMajikan());
+        System.out.println("Kucing Bernama : "+garfieldKucing.getNama());
+        System.out.println("Usia : "+garfieldKucing.getUsia());
+        System.out.println("Berat Badan : "+garfieldKucing.getBb());
+        System.out.println("Jinak : "+garfieldKucing.getStatusJinak());
+        System.out.println("Diadopsi Oleh : "+garfieldKucing.getMajikan());
+        System.out.println("Count = "+Kucing.getKucingCount());
+ }
+}
